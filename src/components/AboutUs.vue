@@ -18,13 +18,13 @@
         </p>
       </div>
       <div class="about-image">
-        <img src="../assets/hotel-ubumwe-gisenyi-20240504133418270400.webp" alt="Ubumwe Interior">
+        <img src="../assets/alain.jfif" alt="Ubumwe Interior">
       </div>
     </section>
 
     <section class="about-section reverse">
       <div class="about-image">
-        <img src="../assets/hotel-ubumwe-gisenyi-20240504133230888700.webp" alt="Ubumwe View">
+        <img src="../assets/bruno.WEBP.jfif" alt="Ubumwe View">
       </div>
       <div class="about-text">
         <h2>Our Mission</h2>
@@ -93,9 +93,21 @@
   color: #555;
   margin-bottom: 15px;
 }
-
+@keyframe myAnimation{
+  from{
+    top:0px;
+  }
+  to{
+    top:200px;
+  }
+}
 .about-image {
   flex: 1;
+  animation-name:myAnimation;
+  animation-duration:3s;
+  position:sticky;
+  width:100px;
+  
 }
 
 .about-image img {

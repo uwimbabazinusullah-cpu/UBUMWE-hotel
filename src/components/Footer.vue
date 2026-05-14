@@ -29,8 +29,8 @@
       <div class="footer-section">
         <h4>Contact</h4>
         <p> Rubavu</p>
-        <p>Phone: +250 788 000 000</p>
-        <p>Email: <a href="mailto:info@ubumwehotel.com">info@ubumwehotel.com</a></p>
+        <p>Phone: +250 787 017 109</p>
+        <p>Email:tambirealainbruno183@gmail.com</p>
       </div>
     </div>
     
@@ -42,7 +42,7 @@
 
 <style scoped>
 .footer {
-  background-color: #1a1a1a;
+  background-color: #33023d;
   color: #ffffff;
   padding: 4rem 8% 1rem;
   margin-top: auto;

@@ -3,7 +3,7 @@
     <header class="header">
       <nav class="navbar">
         <div class="logo">
-          UBUMWE <span>HOTEL</span>
+          UBUMWE IWACU <span>HOTEL</span>
         </div>
         
         <div class="links">
@@ -60,7 +60,7 @@ export default {
 }
 
 .header {
-  background-color: var(--white);
+  background-color: blue;
   box-shadow: var(--shadow);
   position: sticky;
   top: 0;
@@ -107,8 +107,8 @@ export default {
   letter-spacing: 1px;
   position: relative;
   transition: var(--transition);
+  background-color:green;
 }
-
 .nav-link::after {
   content: '';
   position: absolute;
@@ -121,7 +121,7 @@ export default {
 }
 
 .nav-link:hover {
-  color: var(--gold);
+  color:gold;
 }
 
 .nav-link:hover::after {

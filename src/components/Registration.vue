@@ -41,6 +41,7 @@ const handleRegister = () => {
   align-items: center;
   min-height: 70vh;
   padding: 20px;
+  background-color:pink;
 }
 
 .register-card {
@@ -56,26 +57,28 @@ const handleRegister = () => {
 .input-group {
   text-align: left;
   margin-bottom: 15px;
+  
 }
 
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  
 }
 
 input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 5px solid #024d02;
   border-radius: 6px;
 }
 
 .reg-btn {
   width: 100%;
   padding: 12px;
-  background-color: #d4af37;
-  color: white;
+  background-color: #08a8a8;
+  color: green;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -83,6 +86,6 @@ input {
 }
 
 .reg-btn:hover {
-  background-color: #b8962d;
+  background-color: #340138;
 }
 </style>

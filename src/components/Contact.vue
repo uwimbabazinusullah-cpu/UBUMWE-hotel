@@ -6,9 +6,10 @@
 
       <form @submit.prevent="submit">
         <input type="text" placeholder="Name" required>
+        <input type="number" placeholder="Phone Number" required>
         <input type="email" placeholder="Email" required>
         <textarea placeholder="Message" required></textarea>
-        <button type="submit">Send</button>
+        <button type="submit" class="reg-btn">Send</button>
       </form>
     </div>
   </div>

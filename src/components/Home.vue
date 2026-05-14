@@ -4,7 +4,7 @@
       <div class="hero-content">
         <h1>Welcome to Ubumwe Hotel</h1>
         <p>Experience luxury and comfort in the heart of the city.</p>
-        <router-link to="/registration" class="btn">Register</router-link>
+        <router-link to="/registration" class="btn">Register Room</router-link>
       </div>
     </section>
 
@@ -22,7 +22,7 @@
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+  background: linear-gradient(rgba(59, 3, 50, 0.5), rgba(90, 73, 73, 0.5)), 
               url('../assets/hotel-ubumwe-gisenyi-20240504133230888700.webp');
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@
 }
 
 .btn:hover {
-  background: #b8962d;
+  background: #021338;
 }
 
 
